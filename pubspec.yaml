@@ -1,0 +1,18 @@
+name: sign_in_with_apple
+description: Dummy placeholder to bypass real sign_in_with_apple dependency.
+version: 0.0.1
+homepage: https://github.com/nadithmalinda/sign_in_with_apple_dummy
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: DummySignInWithApplePlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
